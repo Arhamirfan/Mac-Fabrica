@@ -1,6 +1,12 @@
+import Hero from "./components/Hero"
+import Navbar from "./components/navbar"
+
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline">App</div>
+    <main>
+        <Navbar />
+        <Hero />
+    </main>
   )
 }
 
